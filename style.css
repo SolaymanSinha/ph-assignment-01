@@ -123,3 +123,43 @@
 .plan-4 p {
     color: #737272;
 }
+
+/* ------------------------ Main Styles, Call-Now-Section -------------------------- */
+.call-now-section {
+    width: 100%;
+}
+.call-now-container {
+    background-image: url("./images/gradient1.png"), url("./images/watch.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, center;
+    width: 1140px;
+    height: 300px;
+    margin: auto;
+    padding-left: 50px;
+}
+
+.call-now-container h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffffff;
+    width: 459px;
+    height: 94px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.call-now-container button {
+    width: 160px;
+    height: 64px;
+    border-radius: 10px;
+    padding: 21px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    background: #ffffff;
+    border: none;
+    outline: none;
+}
