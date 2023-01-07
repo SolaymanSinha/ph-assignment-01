@@ -1,78 +1,78 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
 }
 
 /*------------------------ Header Styles -------------------------*/
 .header {
-  background-image: url("./images/banner3.png");
-  background-repeat: no-repeat;
-  height: 808px;
-  width: 1600px;
+    background-image: url("./images/banner3.png");
+    background-repeat: no-repeat;
+    height: 808px;
+    width: 1600px;
 }
 
 .header-section {
-  margin-left: auto;
-  margin-right: 0;
-  text-align: right;
-  padding-right: 100px;
-  padding-top: 216px;
-  width: 35%;
-  color: #ffffff;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 216px;
+    width: 35%;
+    color: #ffffff;
 }
 
 .header-section h1 {
-  font-size: 65px;
-  line-height: 76px;
-  margin-bottom: 10px;
-  font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .header-section p {
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-  margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 
 .header-section button {
-  color: #005fac;
-  padding: 21px 26px;
-  border-radius: 10px;
-  border: none;
-  outline: none;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
+    color: #005fac;
+    padding: 21px 26px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
 }
 
-/* ------------------------ Main Styles -------------------------- */
+/* ------------------------ Main Styles, Failure-Section -------------------------- */
 .failure-section {
-  display: flex;
-  align-items: center;
-  gap: 87px;
-  margin: 131px 322px 129px 206px;
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    margin: 131px 322px 129px 206px;
 }
 
 .failure-section .failure-div-2 h1 {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 47px;
-  color: #151414;
-  margin-bottom: 24px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
 }
 
 .failure-section .failure-div-2 p {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: #444343;
-  margin-bottom: 16px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
 }
 
 .failure-check-1 i,
@@ -80,7 +80,7 @@
 .failure-check-3 i,
 .failure-check-4 i,
 .failure-check-5 i {
-  color: #18d887;
+    color: #18d887;
 }
 
 .failure-check-1,
@@ -88,5 +88,38 @@
 .failure-check-3,
 .failure-check-4,
 .failure-check-5 {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+/* ------------------------ Main Styles, Plans-Section -------------------------- */
+.plan-container {
+    text-align: center;
+}
+
+.plan-container h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.plans {
+    margin: 50px 230px 130px 230px;
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+}
+
+.plan-1 h2,
+.plan-2 h2,
+.plan-3 h2,
+.plan-4 h2 {
+    margin-bottom: 16px;
+}
+
+.plan-1 p,
+.plan-2 p,
+.plan-3 p,
+.plan-4 p {
+    color: #737272;
 }
