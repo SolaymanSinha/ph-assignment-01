@@ -254,6 +254,7 @@
     background-color: #151414;
     border: 1px solid #ffffff;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .col-2 button {
