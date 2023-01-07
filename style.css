@@ -163,3 +163,109 @@
     border: none;
     outline: none;
 }
+
+.call-now-container button a {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: #005fac;
+}
+
+/* ------------------------ Main Styles, For Bonus Mark, Iron-Man-Section -------------------------- */
+.hero-section {
+    width: 1140px;
+    margin: auto;
+}
+
+.hero-section h1 {
+    font-size: xx-large;
+    color: #005fac;
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hrow-1,
+.hrow-2,
+.hrow-3,
+.hrow-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 150px;
+}
+
+.hrow-1 img,
+.hrow-2 img,
+.hrow-3 img,
+.hrow-4 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.hrow-1 p,
+.hrow-2 p,
+.hrow-3 p,
+.hrow-4 p {
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.hrow-1 p {
+    background-image: url("./images/gradient1.png");
+    color: #ffffff;
+}
+
+.hrow-2 p {
+    background-image: url("./images/gradient2.png");
+    color: #ffffff;
+}
+
+.hrow-3 p {
+    background-image: url("./images/gradient1.png");
+    color: #ffffff;
+}
+
+.hrow-4 p {
+    background-image: url("./images/gradient2.png");
+    color: #ffffff;
+}
+
+/* ------------------------ Footer Styles, Footer-Section -------------------------- */
+.footer-section {
+    display: flex;
+    gap: 331px;
+    padding: 130px 229px 130px 230px;
+    background-color: #151414;
+    color: #ffffff;
+}
+
+.col-1 button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.col-2 input {
+    width: 300px;
+    height: 34px;
+    background-color: #151414;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+.col-2 button {
+    background-color: #005fac;
+    color: #ffffff;
+    padding: 20px 36px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.col-2 button a {
+    text-decoration: none;
+    color: white;
+}
