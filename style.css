@@ -47,6 +47,13 @@
     text-align: center;
 }
 
+.header-section button strong a {
+    text-decoration: none;
+    color: #005fac;
+    border: none;
+    outline: none;
+}
+
 /* ------------------------ Main Styles, Failure-Section -------------------------- */
 .failure-section {
     display: flex;
